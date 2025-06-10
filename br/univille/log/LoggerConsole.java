@@ -8,16 +8,16 @@ class LoggerConsole implements Logger {
 
         switch (level) {
             case DEBUG:
-                color = "\u001B[32m"; // Verde
+                color = "\u001B[32m"; 
                 break;
             case WARNING:
-                color = "\u001B[33m"; // Amarelo
+                color = "\u001B[33m"; 
                 break;
             case ERROR:
-                color = "\u001B[31m"; // Vermelho
+                color = "\u001B[31m";
                 break;
             default:
-                color = "\u001B[0m"; // Padrão
+                color = "\u001B[0m"; 
         }
 
         String reset = "\u001B[0m";
